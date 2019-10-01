@@ -35,9 +35,9 @@ xstd=[Xstd Ystd Zstd];
 
 %% Plot the time series
 if nargin==1 || flag~=0
-    fig1=figure(1);plot(t,[Xmean Ymean Zmean]);xlabel('Time');ylabel('Location');legend('X','Y','Z')
+    fig1=figure(5);plot(t,[Xmean Ymean Zmean]);xlabel('Time');ylabel('Location');legend('X','Y','Z')
     saveas(fig1,'location.bmp');
-    fig2=figure(2);plot(t,[Xstd Ystd Zstd]);xlabel('Time');ylabel('Standard deviation');legend({'X','Y','Z'},'Location','southeast')
+    fig2=figure(6);plot(t,[Xstd Ystd Zstd]);xlabel('Time');ylabel('Standard deviation');legend({'X','Y','Z'},'Location','southeast')
     saveas(fig2,'standard_deviation.bmp');
 end
 

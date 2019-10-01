@@ -13,17 +13,23 @@ A=csvread('Assignment5Data.txt');
 %Part 3 written by Chloe Melnick. This is used to plot the trajectories of
 %the data. The function is contained in plottraj.m and has the full code
 %used to create the graphs
-
-% plottraj(A);
+ 
+plottraj(A);
 
 %% 
-%Part 4
+%Part 4 Written by Soumyabrata 
 data_processing(A);
 
 
-%% Part 4 written by Linying GAO
+%% Part 5 written by Linying GAO
 
 parameterfit(A);
+[vx,vy,vz,g]=parameterfit(A);
 
-%% Part 5
+fprintf(strcat('X component of velocity = ',num2str(vx),'\n\n'))
+fprintf(strcat('Y component of velocity = ',num2str(vy),'\n\n'))
+fprintf(strcat('Z component of velocity = ',num2str(vz),'\n\n'))
+fprintf(strcat('Gravitational acceleration = ',num2str(g),'\n\n'))
+%% Part 6
+%Written by Fredrico
 
