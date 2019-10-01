@@ -7,16 +7,23 @@
 %after importing the data to matlab, we want to rename it 'A' so it is easy
 %for the team to use
 
-A=Assignment5Data;
+A=csvread('Assignment5Data.txt');
 
 %%
 %Part 3 written by Chloe Melnick. This is used to plot the trajectories of
 %the data. The function is contained in plottraj.m and has the full code
 %used to create the graphs
 
-plottraj(A)
+% plottraj(A);
 
 %% 
 %Part 4
+data_processing(A);
 
+
+%% Part 4 written by Linying GAO
+
+parameterfit(A);
+
+%% Part 5
 
