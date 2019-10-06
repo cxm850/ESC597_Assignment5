@@ -7,42 +7,31 @@
 
 %> @b Assignment @b 5 is an example of using Git and Doxygen. It 
 %> was created by Chloe Melnick, Federico Krauch, Linying Gao, and
-%>Soumyabrata Maiti.
+%>Soumyabrata Maiti. There were four functions used to develop the main
+%script @b Assignment5workingcode. The four function codes for part 3-6
+%respectively are plottraj, data_processing, parameterfit, and speed. 
 
 
-%>@section funcDecr Part 3 
+%>@section Part 3 
 %>This section is used to plot the trajectories of the particles. 
-%>Developed by Chloe Melnick.  
-
+%>Developed by Chloe Melnick. 
+%> See @b plottraj for the function and @b Assignment5workingcode for its
+%call. 
 
 
 %>@section funcDecr Part 4 
-%>This section is used to . 
-%>Developed by .  
+%>This section is used to find the average of the marble's coordinates and the variance.  . 
+%>Developed by Soumyabrata.  
 
 
 %>@section funcDecr Part 5 
-%>This section is used to . 
-%>Developed by .  
+%>This section is used to find the components of the velocity and gravity. 
+%>Developed by Linying Gao.  
 
 
 %>@section funcDecr Part 6 
-%>This section is used to plot the trajectories of the particles. 
-%>Developed by Chloe Melnick.  
+%>This section is used to find the speed of the marble for each trial. 
+%>Developed by Federico.  
 
-
-
-%>% ======================================================================
-%>%> @brief This function takes the input of A and plots its trajectories. 
-%>%> @param arg1 First argument
-%>%> @param arg2 Second argument
-
-%>%> @retval out1 return value for the first output variable
-%>%> @retval out2 return value for the second output variable
-%>% ======================================================================
-%>[out1, out2] = function( arg1, arg2)
-%>  out1 = arg2;
-%>  out2 = arg1;
-%>end
 
 

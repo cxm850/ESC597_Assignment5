@@ -33,7 +33,7 @@ for i=1:n-1
 end
 pltti=ti(2:141);
 for i=1:10
-    figure(i);
+    figure(7);
     hold on
     yaxis=spd(:,i);
     xaxis=pltti;

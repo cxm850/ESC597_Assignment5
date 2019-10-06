@@ -31,5 +31,5 @@ fprintf(strcat('Y component of velocity = ',num2str(vy),'\n\n'))
 fprintf(strcat('Z component of velocity = ',num2str(vz),'\n\n'))
 fprintf(strcat('Gravitational acceleration = ',num2str(g),'\n\n'))
 %% Part 6
-%Written by Fredrico
+%Written by Federico
 speed(A)
